@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Custom Chocolate Pack</title>
+</head>
+<body>
+    <h1>Custom Chocolate Pack</h1>
+    <form id="chocolateForm">
+        <div class="first">
+        <!-- Checkbox inputs for chocolate selection -->
+        <img src="./images/Bournville.webp">
+        <label><input type="checkbox" name="chocolate" value="Bournville : $2.50"> Bournville :$2.50   </label>
+        <img src="./images/Dairy Milk Bites.webp">
+        <label><input type="checkbox" name="chocolate" value="Dairy Milk Bites : $2.50"> Dairy Milk Bites :$2.50  </label>
+        <img src="./images/Dark Chocolate.webp">
+        <label><input type="checkbox" name="chocolate" value="Dark Chocolate  :$2.50 "> Dark Chocolate  :$2.50  </label>
+        <img src="./images/Holy Chocolate.webp">
+        <label><input type="checkbox" name="chocolate" value="Holy Chocolate :$2.50 "> Holy Chocolate :$2.50  </label>
+        <img src="./images/Lindor.webp">
+        <label><input type="checkbox" name="chocolate" value="Linder Chocolate  :$2.50 "> Linder Chocolate  :$2.50  </label>
+        <img src="./images/Luvit.webp">
+        <label><input type="checkbox" name="chocolate" value="Chocorich Chocolate  :$2.50 "> Chocorich Chocolate  :$2.50  </label>
+        <img src="./images/Snickerss.webp">
+        <label><input type="checkbox" name="chocolate" value=" Snickerss :$2.50 "> Snickerss :$2.50  </label>
+        <img src="./images/Vega Sport.webp">
+        <label><input type="checkbox" name="chocolate" value="Vega Sport  :$2.50"> Vega Sport  :$2.50  </label>
+        <!-- Add more chocolates here -->
+        </div>
+    <div class="second">
+        <!-- Display selected items and their quantities -->
+        <div id="selectedItems">
+            <h2>Your Selection:</h2>
+            <ul id="selectedList"></ul>
+        </div>
+
+        <!-- Display total price -->
+        <div id="totalPrice">
+            <h2>Total Price:</h2>
+            <span id="priceValue">$0.00</span>
+        </div>
+    </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(241, 220, 194);
+}
+.first{
+    margin-left: 40%;
+}
+
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: inherit;
+    color: brown;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+ img{
+    width: 191px;
+    margin-bottom: 44px;
+    margin-top: 30px;
+}
+.second{
+    margin-left: 30%;
+    background-color: aliceblue;
+    /* height: 31vh; */
+    width: 52%;
+    border-radius: 20px;
+}
+ #selectedItems{
+    margin-left: 20%;
+
+}
+#totalPrice{
+    margin-left: 20%;
+
+}
+
+#selectedItems, #totalPrice {
+    margin-top: 20px;
+}
